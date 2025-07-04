@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Дані мерчанта (тестові)
 const merchantAccount = "github_com9";
-const merchantDomainName = "localhost";
+const merchantDomainName = "wayforpay-test-1.onrender.com";
 const secretKey = "6653d8afe86b434a14b18f1dcd485feb00ebb10d";
 
 app.post('/api/payment', (req, res) => {
